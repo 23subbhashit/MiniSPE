@@ -20,4 +20,4 @@
         state: started
 
     - name: Run Docker Container
-      shell: docker run -d --name calculator -p 8080:8080 23subbhashit/minispe
+      shell: docker run -d --name calculator -p 8081:8080 23subbhashit/minispe
