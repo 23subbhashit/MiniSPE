@@ -1,0 +1,26 @@
+---
+- name: Deploy Java Application
+  hosts: all
+  tasks:
+    - name: Stop previous container
+      docker_container:
+        name: calc-container
+        state: stopped
+      ignore_errors: yes
+
+    - name: Remove previous container
+      docker_container:
+        name: calc-container
+        state: absent
+      ignore_errors: yes
+
+    - name: Pull Docker Image
+      docker_image:
+        name: "{{ DOCKER_IMAGE_NAME }}"
+        source: pull
+
+    - name: Run Docker Container
+      docker_container:
+        name: calc-container
+        image: "{{ DOCKER_IMAGE_NAME }}"
+        state: started
