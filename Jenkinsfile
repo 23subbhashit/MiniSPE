@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        DOCKER_REGISTRY_CREDENTIALS = 'DockerHubCred'
+        DOCKER_IMAGE_NAME = '23subbhashit/minispe'
+    }
+
     stages {
         stage('Clone Repository') {
             steps {
@@ -17,26 +22,26 @@ pipeline {
 
         stage('Build') {
             steps {
-                   dir('/mnt/c/Users/User/Desktop/minispe') {
-                         sh 'mvn clean package'
-                   }
-             }
+                dir('/mnt/c/Users/User/Desktop/minispe') {
+                    sh 'mvn clean package'
+                }
+            }
         }
 
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build('calc-image:latest', '.')
+                    docker.build("${DOCKER_IMAGE_NAME}", '.')
                 }
             }
         }
 
-        stage('Push Docker Image') {
+        stage('Push Docker Images') {
             steps {
                 script {
-                    docker.withRegistry('https://docker.io', 'docker-hub-credentials') {
-                        dockerImage = docker.image('calc-image:latest')
-                        dockerImage.push()
+                    docker.withRegistry('', 'DockerHubCred') {
+                        sh "docker tag ${DOCKER_IMAGE_NAME}:latest ${DOCKER_IMAGE_NAME}:latest"
+                        sh "docker push ${DOCKER_IMAGE_NAME}:latest"
                     }
                 }
             }
