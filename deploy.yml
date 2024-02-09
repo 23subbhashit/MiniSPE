@@ -6,7 +6,7 @@
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "23subbhashit/calc2"
+        name: "23subbhashit/minispe"
         source: pull
       register: docker_pull_result
 
@@ -21,8 +21,8 @@
 
     - name: Run Docker Container
       docker_container:
-        name: calculator
-        image: "23subbhashit/calc2"
+        name: calculatorspe
+        image: "23subbhashit/minispe"
         state: started
         interactive: true
         detach: true
