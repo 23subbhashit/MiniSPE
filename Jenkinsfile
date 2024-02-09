@@ -17,8 +17,10 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean package'
-            }
+                   dir('/mnt/c/Users/User/Desktop/minispe') {
+                         sh 'mvn clean package'
+                   }
+             }
         }
 
         stage('Build Docker Image') {
