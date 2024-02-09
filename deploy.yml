@@ -1,5 +1,5 @@
 ---
-- name: Pull Docker Image from Docker Hub
+- name: Deploy Java Application
   hosts: localhost
   remote_user: subbhashit
   become: false
@@ -18,5 +18,6 @@
       service:
         name: docker
         state: started
-    - name: Running container
-      shell: docker run -it -d --name minicalc 23subbhashit/minispe
+
+    - name: Run Docker Container
+      shell: docker run -d --name calculator -p 8081:8080 23subbhashit/minispe
