@@ -7,4 +7,4 @@ WORKDIR /app
 COPY target/minispe-1.0-SNAPSHOT.jar /app/
 
 # Define the command to run the JAR file
-CMD ["java", "-jar", "minispe-1.0-SNAPSHOT.jar"]
+#CMD ["java", "-jar", "minispe-1.0-SNAPSHOT.jar"]
