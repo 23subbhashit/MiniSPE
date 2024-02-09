@@ -11,7 +11,7 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: '*/main']], // Specify the branch to checkout
+                    branches: [[name: '*/master']], // Specify the branch to checkout
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [], // Any additional GitSCMExtension you might need
                     submoduleCfg: [], // Submodule configurations if applicable
