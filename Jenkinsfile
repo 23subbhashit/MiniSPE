@@ -15,7 +15,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [], // Any additional GitSCMExtension you might need
                     submoduleCfg: [], // Submodule configurations if applicable
-                    userRemoteConfigs: [[url: 'https://github.com/23subbhashit/calc.git']] // Specify the repository URL
+                    userRemoteConfigs: [[url: 'https://github.com/23subbhashit/MiniSPE.git']] // Specify the repository URL
                 ])
             }
         }
