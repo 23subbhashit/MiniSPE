@@ -1,6 +1,6 @@
 ---
 - name: Pull Docker Image from Docker Hub and Run Container
-  hosts: localhost
+  hosts: 172.29.167.205
   remote_user: subbhashit
   become: true
   tasks:
