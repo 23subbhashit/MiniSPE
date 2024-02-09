@@ -30,8 +30,10 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                script {
-                    docker.build("${DOCKER_IMAGE_NAME}", '.')
+                dir('/mnt/c/Users/User/Desktop/minispe') {
+                    script {
+                        docker.build("${DOCKER_IMAGE_NAME}", '.')
+                    }
                 }
             }
         }

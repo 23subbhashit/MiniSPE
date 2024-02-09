@@ -1,14 +1,10 @@
-# Use the OpenJDK 11 JRE slim image as base
-FROM openjdk:11-jre-slim
+FROM openjdk:11
 
-# Set the working directory inside the container
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy the Main.java file from your source directory to the working directory inside the container
-COPY src/main/java/org/example/Main.java /app/
+# Copy the JAR file into the container
+COPY target/minispe-1.0-SNAPSHOT.jar /app/
 
-# Compile the Main.java file
-RUN javac Main.java
-
-# Specify the command to run your Java application
-CMD ["java", "Main"]
+# Define the command to run the JAR file
+CMD ["java", "-jar", "minispe-1.0-SNAPSHOT.jar"]
