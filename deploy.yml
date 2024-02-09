@@ -1,5 +1,5 @@
 - name: Deploy Java Application
-  hosts: localhost
+  hosts: 172.29.167.205
   remote_user: subbhashit
   become: false
   tasks:
