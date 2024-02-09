@@ -1,8 +1,8 @@
 ---
-- name: Pull Docker Image from Docker Hub and Run Container
+- name: Pull Docker Image from Docker Hub
   hosts: localhost
   remote_user: subbhashit
-  become:  false
+  become: false
   tasks:
     - name: Pull Docker Image
       docker_image:
@@ -14,15 +14,9 @@
       debug:
         var: docker_pull_result
 
-    - name: Ensure Docker service is started
+    - name: Start Docker service
       service:
         name: docker
         state: started
-
-    - name: Run Docker Container
-      docker_container:
-        name: calculatorspe
-        image: "23subbhashit/minispe"
-        state: started
-        interactive: true
-        detach: true
+    - name: Running container
+      shell: docker run -it -d --name calculator 23subbhashit/minispe
