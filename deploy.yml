@@ -1,6 +1,6 @@
 - name: Deploy Java Application
   hosts: localhost
-  remote_user: subbhashit
+  connection: local
   become: false
   tasks:
     - name: Pull Docker Image
@@ -19,4 +19,4 @@
         state: started
 
     - name: Run Docker Container
-      shell: docker run -d --name calculator -p 8080:8080 23subbhashit/minispe
+      command: docker run -d --name calculator -p 8080:8080 23subbhashit/minispe
