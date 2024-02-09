@@ -2,9 +2,16 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/23subbhashit/MiniSPE.git'
+                checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: '*/main']], // Specify the branch to checkout
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [], // Any additional GitSCMExtension you might need
+                    submoduleCfg: [], // Submodule configurations if applicable
+                    userRemoteConfigs: [[url: 'https://github.com/23subbhashit/calc.git']] // Specify the repository URL
+                ])
             }
         }
 
@@ -26,7 +33,8 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://docker.io', 'docker-hub-credentials') {
-                        sh 'docker push calc-image:latest'
+                        dockerImage = docker.image('calc-image:latest')
+                        dockerImage.push()
                     }
                 }
             }
