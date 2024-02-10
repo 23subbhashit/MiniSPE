@@ -1,11 +1,22 @@
 ---
 - name: Pull Docker Image from Docker Hub
-  hosts: 172.29.167.205
+  hosts: localhost
   remote_user: subbhashit
   become: false
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "23subbhashit/minispe"
+        name: "23subbhashit/calc2"
         source: pull
       register: docker_pull_result
+
+    - name: Display Docker Pull Result
+      debug:
+        var: docker_pull_result
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+    - name: Running container
+      shell: docker run -it -d --name calculator 23subbhashit/calc2
