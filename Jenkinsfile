@@ -11,11 +11,11 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: '*/master']], // Specify the branch to checkout
+                    branches: [[name: '*/master']],
                     doGenerateSubmoduleConfigurations: false,
-                    extensions: [], // Any additional GitSCMExtension you might need
-                    submoduleCfg: [], // Submodule configurations if applicable
-                    userRemoteConfigs: [[url: 'https://github.com/23subbhashit/MiniSPE.git']] // Specify the repository URL
+                    extensions: [],
+                    submoduleCfg: [],
+                    userRemoteConfigs: [[url: 'https://github.com/23subbhashit/MiniSPE.git']]
                 ])
             }
         }
@@ -24,6 +24,14 @@ pipeline {
             steps {
                 dir('/mnt/c/Users/User/Desktop/minispe') {
                     sh 'mvn clean package'
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                dir('/mnt/c/Users/User/Desktop/minispe') {
+                    sh 'mvn test'
                 }
             }
         }
