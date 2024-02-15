@@ -51,6 +51,7 @@
                                     <mainClass>Main</mainClass>
                                 </transformer>
                             </transformers>
+
                         </configuration>
                     </execution>
                 </executions>
