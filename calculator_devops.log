@@ -206,3 +206,11 @@
 2024-02-15 12:16:33.219 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
 2024-02-15 12:16:33.220 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
 2024-02-15 12:16:33.220 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 12:41:05.390 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 12:41:05.394 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 12:41:05.395 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 12:41:05.395 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 12:41:05.396 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 12:41:05.396 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 12:41:05.397 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 12:41:05.398 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
