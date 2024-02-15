@@ -40,6 +40,11 @@ pipeline {
             steps {
                 dir('/mnt/c/Users/User/Desktop/minispe') {
                     script {
+                        // Copy Log4j JAR files to Docker build context
+                        sh 'cp ~/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar .'
+                        sh 'cp ~/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar .'
+
+                        // Build Docker image
                         docker.build("${DOCKER_IMAGE_NAME}", '.')
                     }
                 }
