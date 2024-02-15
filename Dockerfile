@@ -7,4 +7,4 @@ WORKDIR /app
 COPY target/minispe-1.0-SNAPSHOT.jar /app/
 
 # Define the command to run the application
-CMD ["java", "-cp", "minispe-1.0-SNAPSHOT.jar", "org.example.Main"]
+#CMD ["java", "-cp", "minispe-1.0-SNAPSHOT.jar", "org.example.Main"]
