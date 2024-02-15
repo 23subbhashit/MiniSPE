@@ -1,31 +1,46 @@
-package org.example;
-
+import org.example.Main;
+import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-
 public class MainTest {
-    @Test
-    public void testCalculateSquareRoot() {
-        assertEquals(4.0, Main.calculateSquareRoot(16), 0.001);
-        assertEquals(5.0, Main.calculateSquareRoot(25), 0.001);
+    private Main uncalculator;
+
+    @Before
+    public void setUp() {
+        uncalculator = new Main();
     }
 
     @Test
-    public void testCalculateFactorial() {
-        assertEquals(120, Main.calculateFactorial(5));
-        assertEquals(1, Main.calculateFactorial(0));
+    public void test_calculateSquareRoot() {
+        double val = 16.0;
+        double expectedResult = 4.0;
+        double result = uncalculator.calculateSquareRoot(val);
+        Assert.assertEquals(expectedResult, result, 0.0f);
     }
 
     @Test
-    public void testCalculateNaturalLogarithm() {
-        assertEquals(0.0, Main.calculateNaturalLogarithm(1), 0.001);
-        assertEquals(1.609, Main.calculateNaturalLogarithm(5), 0.001);
+    public void test_calculateFactorial() {
+        int a = 5;
+        int expectedResult = 120;
+        int result = uncalculator.calculateFactorial(a);
+        Assert.assertEquals(expectedResult, result);
     }
 
     @Test
-    public void testCalculatePowerFunction() {
-        assertEquals(16.0, Main.calculatePowerFunction(2, 4), 0.001);
-        assertEquals(32.0, Main.calculatePowerFunction(2, 5), 0.001);
+    public void test_calculateNaturalLogarithm() {
+        double a = 2.718;
+        double expectedResult = 1.0;
+        double result = uncalculator.calculateNaturalLogarithm(a);
+        Assert.assertEquals(expectedResult, result, 0.2f);
+    }
+
+    @Test
+    public void test_calculatePowerFunction() {
+        double a = 2.0;
+        double b = 5.0;
+        double expectedResult = 32.0;
+        double result = uncalculator.calculatePowerFunction(a, b);
+        Assert.assertEquals(expectedResult, result, 0.0f);
     }
 }

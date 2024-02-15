@@ -342,3 +342,76 @@
 2024-02-15 13:13:13.754 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
 2024-02-15 13:13:13.755 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
 2024-02-15 13:13:13.755 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:17:02.110 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:17:02.134 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:17:02.138 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:17:02.138 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:17:02.138 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:17:02.138 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:17:02.139 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:17:02.139 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:17:11.270 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:17:11.295 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:17:11.299 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:17:11.299 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:17:11.299 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:17:11.300 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:17:11.300 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:17:11.300 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:23:18.096 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:23:18.100 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:23:18.101 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:23:18.101 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:23:18.103 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:23:18.103 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:23:18.104 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:23:18.104 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:23:51.495 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:23:51.499 [main] INFO  org.example.Main - Executing calculateSquareRoot function!
+2024-02-15 13:23:51.500 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:23:51.500 [main] INFO  org.example.Main - Executing calculateFactorial function!
+2024-02-15 13:23:51.502 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:23:51.504 [main] INFO  org.example.Main - Executing calculatePowerFunction function!
+2024-02-15 13:23:51.505 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:23:51.506 [main] INFO  org.example.Main - Executing calculateNaturalLogarithm function!
+2024-02-15 13:23:29.220 [main] INFO  org.example.Main - Scientific Calculator Menu:
+2024-02-15 13:23:29.223 [main] INFO  org.example.Main - 1. Square root function - √x
+2024-02-15 13:23:29.223 [main] INFO  org.example.Main - 2. Factorial function - x!
+2024-02-15 13:23:29.223 [main] INFO  org.example.Main - 3. Natural logarithm (base е) - ln(x)
+2024-02-15 13:23:29.223 [main] INFO  org.example.Main - 4. Power function - x^b
+2024-02-15 13:23:29.223 [main] INFO  org.example.Main - 5. Exit
+2024-02-15 13:23:29.223 [main] INFO  org.example.Main - Enter your choice: 
+2024-02-15 13:24:01.833 [main] INFO  org.example.Main - Scientific Calculator Menu:
+2024-02-15 13:24:01.838 [main] INFO  org.example.Main - 1. Square root function - √x
+2024-02-15 13:24:01.838 [main] INFO  org.example.Main - 2. Factorial function - x!
+2024-02-15 13:24:01.838 [main] INFO  org.example.Main - 3. Natural logarithm (base е) - ln(x)
+2024-02-15 13:24:01.838 [main] INFO  org.example.Main - 4. Power function - x^b
+2024-02-15 13:24:01.838 [main] INFO  org.example.Main - 5. Exit
+2024-02-15 13:24:01.838 [main] INFO  org.example.Main - Enter your choice: 
+2024-02-15 13:27:10.836 [main] INFO  org.example.Main - Scientific Calculator Menu:
+2024-02-15 13:27:10.839 [main] INFO  org.example.Main - 1. Square root function - √x
+2024-02-15 13:27:10.839 [main] INFO  org.example.Main - 2. Factorial function - x!
+2024-02-15 13:27:10.839 [main] INFO  org.example.Main - 3. Natural logarithm (base е) - ln(x)
+2024-02-15 13:27:10.839 [main] INFO  org.example.Main - 4. Power function - x^b
+2024-02-15 13:27:10.839 [main] INFO  org.example.Main - 5. Exit
+2024-02-15 13:27:10.839 [main] INFO  org.example.Main - Enter your choice: 
+2024-02-15 13:31:49.195 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 13:31:56.713 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 13:33:36.560 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 13:33:36.575 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 13:33:36.578 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 13:33:36.582 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 13:37:05.938 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 13:37:05.954 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 13:37:05.962 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 13:37:05.964 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 13:37:05.967 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 13:37:05.971 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 13:37:05.972 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 13:37:05.974 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 13:37:05.978 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 13:43:00.246 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 13:43:10.404 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 13:43:10.410 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 13:43:10.411 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 13:43:10.412 [main] INFO  org.example.Main - Executing Factorial function!
