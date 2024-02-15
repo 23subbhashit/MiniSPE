@@ -7,4 +7,4 @@ WORKDIR /app
 COPY target/minispe-with-dependencies.jar /app/
 
 # Define the command to run the application
-#CMD ["java", "-cp", "minispe-with-dependencies.jar", "org.example.Main"]
+CMD ["java", "-cp", "minispe-with-dependencies.jar", "org.example.Main"]
