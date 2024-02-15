@@ -4,7 +4,7 @@ FROM openjdk:11
 WORKDIR /app
 
 # Copy the application JAR file into the container
-COPY target/minispe-1.0-SNAPSHOT.jar /app/
+COPY target/minispe-with-dependencies.jar /app/
 
 # Define the command to run the application
-#CMD ["java", "-cp", "minispe-1.0-SNAPSHOT.jar", "org.example.Main"]
+#CMD ["java", "-cp", "minispe-with-dependencies.jar", "org.example.Main"]
