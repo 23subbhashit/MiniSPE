@@ -431,3 +431,20 @@
 2024-02-15 13:52:49.206 [main] INFO  org.example.Main - Executing squareRoot function!
 2024-02-15 13:52:49.206 [main] INFO  org.example.Main - Executing Power function!
 2024-02-15 13:52:49.207 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 14:02:53.213 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 14:02:53.220 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 14:02:53.221 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 14:02:53.222 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 14:04:20.867 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 14:04:20.872 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 14:04:20.872 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 14:04:20.873 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 14:04:40.518 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 14:04:40.523 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 14:04:40.524 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 14:04:40.525 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-15 14:04:49.073 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+2024-02-15 14:05:33.811 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-15 14:05:33.817 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-15 14:05:33.818 [main] INFO  org.example.Main - Executing Power function!
+2024-02-15 14:05:33.819 [main] INFO  org.example.Main - Executing Factorial function!
