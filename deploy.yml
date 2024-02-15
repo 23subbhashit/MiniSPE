@@ -18,20 +18,5 @@
       service:
         name: docker
         state: started
-
-    - name: Copy Log4j JAR files into Docker container
-      docker_copy:
-        src: "~/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar"
-        dest: "/var/lib/docker/containers/minispe"
-        container: minispe
-        force: yes
-
-    - name: Copy Log4j JAR files into Docker container
-      docker_copy:
-        src: "~/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar"
-        dest: "/var/lib/docker/containers/minispe"
-        container: minispe
-        force: yes
-
     - name: Running container
       shell: docker run -it -d --name minispe 23subbhashit/minispe
