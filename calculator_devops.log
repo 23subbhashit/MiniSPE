@@ -496,3 +496,11 @@
 2024-02-27 07:35:05.975 [main] INFO  org.example.Main - Executing squareRoot function!
 2024-02-27 07:35:05.976 [main] INFO  org.example.Main - Executing Power function!
 2024-02-27 07:35:05.976 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-27 07:37:51.445 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-27 07:37:51.474 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-27 07:37:51.474 [main] INFO  org.example.Main - Executing Power function!
+2024-02-27 07:37:51.475 [main] INFO  org.example.Main - Executing Factorial function!
+2024-02-27 07:38:01.439 [main] INFO  org.example.Main - Executing naturalLog function!
+2024-02-27 07:38:01.471 [main] INFO  org.example.Main - Executing squareRoot function!
+2024-02-27 07:38:01.471 [main] INFO  org.example.Main - Executing Power function!
+2024-02-27 07:38:01.472 [main] INFO  org.example.Main - Executing Factorial function!
